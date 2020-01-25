@@ -14,6 +14,10 @@
 		04386DFD23DBAFEE00697224 /* C0762067_FinalLabAssignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 04386DFB23DBAFEE00697224 /* C0762067_FinalLabAssignment.xcdatamodeld */; };
 		04386DFF23DBAFF000697224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04386DFE23DBAFF000697224 /* Assets.xcassets */; };
 		04386E0223DBAFF000697224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04386E0023DBAFF000697224 /* LaunchScreen.storyboard */; };
+		04386E0A23DBB15800697224 /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386E0923DBB15800697224 /* ProductTableViewController.swift */; };
+		04386E0C23DBB4C900697224 /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386E0B23DBB4C900697224 /* Products.swift */; };
+		04386E0E23DBB91C00697224 /* AddProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386E0D23DBB91C00697224 /* AddProductViewController.swift */; };
+		04386E1123DBBE5C00697224 /* productTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04386E1023DBBE5C00697224 /* productTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		04386DFE23DBAFF000697224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04386E0123DBAFF000697224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04386E0323DBAFF000697224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04386E0923DBB15800697224 /* ProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
+		04386E0B23DBB4C900697224 /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		04386E0D23DBB91C00697224 /* AddProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProductViewController.swift; sourceTree = "<group>"; };
+		04386E1023DBBE5C00697224 /* productTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +66,28 @@
 		04386DF123DBAFEE00697224 /* C0762067_FinalLabAssignment */ = {
 			isa = PBXGroup;
 			children = (
+				04386E0F23DBBD4200697224 /* ViewController */,
 				04386DF223DBAFEE00697224 /* AppDelegate.swift */,
 				04386DF423DBAFEE00697224 /* SceneDelegate.swift */,
-				04386DF623DBAFEE00697224 /* ViewController.swift */,
 				04386DF823DBAFEE00697224 /* Main.storyboard */,
 				04386DFE23DBAFF000697224 /* Assets.xcassets */,
 				04386E0023DBAFF000697224 /* LaunchScreen.storyboard */,
 				04386E0323DBAFF000697224 /* Info.plist */,
 				04386DFB23DBAFEE00697224 /* C0762067_FinalLabAssignment.xcdatamodeld */,
+				04386E0B23DBB4C900697224 /* Products.swift */,
 			);
 			path = C0762067_FinalLabAssignment;
+			sourceTree = "<group>";
+		};
+		04386E0F23DBBD4200697224 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				04386DF623DBAFEE00697224 /* ViewController.swift */,
+				04386E0923DBB15800697224 /* ProductTableViewController.swift */,
+				04386E0D23DBB91C00697224 /* AddProductViewController.swift */,
+				04386E1023DBBE5C00697224 /* productTableViewCell.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,9 +162,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				04386DFD23DBAFEE00697224 /* C0762067_FinalLabAssignment.xcdatamodeld in Sources */,
+				04386E1123DBBE5C00697224 /* productTableViewCell.swift in Sources */,
+				04386E0E23DBB91C00697224 /* AddProductViewController.swift in Sources */,
 				04386DF723DBAFEE00697224 /* ViewController.swift in Sources */,
 				04386DF323DBAFEE00697224 /* AppDelegate.swift in Sources */,
+				04386E0C23DBB4C900697224 /* Products.swift in Sources */,
 				04386DF523DBAFEE00697224 /* SceneDelegate.swift in Sources */,
+				04386E0A23DBB15800697224 /* ProductTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
